@@ -1,4 +1,4 @@
 # changzhenxuan.github.io
 
 a simple test.
-[index](index)
+[index](#index)
