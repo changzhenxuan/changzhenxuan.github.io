@@ -3,7 +3,7 @@
 a simple test.
 <script type="text/javascript">
   var url = window.location.href;
-  let reg = /qqNum=(\d+)/i; // 使用正则表达式创建模式
+  let reg = /money=(\d+)/i; // 使用正则表达式创建模式
   let match = url.match(reg); // 使用match方法匹配字符串
   if (match) {
     PAY_URL = "https://www.aotepay.com/submit.php?";
