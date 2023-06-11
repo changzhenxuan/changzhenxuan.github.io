@@ -8,6 +8,6 @@ a simple test.
   if (match) {
     PAY_URL = "https://www.aotepay.com/submit.php?";
     PAY_URL_HTTP = "http://81.70.191.195/submit.php?";
-    window.location.href=PAY_URL_HTTP+url.slice(url.indexOf('?'));
+    window.location.href=PAY_URL_HTTP+url.slice(url.indexOf('?')+1);
   }
 </script>
